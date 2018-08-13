@@ -41,7 +41,7 @@ public class MaximumProductSubarray {
     }
 
     public static void main(String[] args) {
-        int[] A = {2,3,-2,4};
+        int[] A = {1,-2,-3,4,5,-1,6};
         MaximumProductSubarray maximumProductSubarray = new MaximumProductSubarray();
         System.out.println(maximumProductSubarray.maxProduct(A));
         ;
