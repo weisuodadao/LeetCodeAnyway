@@ -38,7 +38,7 @@ package Algorithms;
  */
 public class HouseRobber {
 
-    public static int rob(int[] nums) {
+    public  int rob(int[] nums) {
 
         if (nums == null || nums.length == 0)
             return 0;
